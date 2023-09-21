@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Condensed&display=swap");
+.landingPage {
+  background: url(./webimages/black-white-minimal-portrait_23-2149152636.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.texts {
+  color: tomato;
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+  width: 350px;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.info {
+  width: 250px;
+  color: white;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.btnOne {
+  width: 100px;
+  border: 2px solid white;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+.btnTwo {
+  width: 100px;
+  background-color: tomato;
+  padding: 7px 20px 7px 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+.btnOne:hover,
+.btnTwo:hover {
+  background-color: white;
+  color: black;
+}
+.landingRow {
+  background-color: tomato;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Landingbuttons {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.image {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  border: 9px solid white;
+}
+.backgroundSpinner3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 300px;
+}
+.flexBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+.textWidth {
+  width: 30%;
+}
+.content {
+  width: 30%;
+  padding: 10px;
+  font-weight: bold;
+  font-family: "Mooli", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.orders {
+  background-color: tomato;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 50px;
+}
+.image2 {
+  transition: 0.3s;
+}
+.image2:hover {
+  transform: translateY(10px);
+  cursor: pointer;
+}
+.section3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section3Text {
+  width: 30%;
+}
+.Info {
+  display: flex;
+  align-items: center;
+  background-color: tomato;
+  justify-content: space-around;
+  padding: 60px;
+}
+.contactUs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: url("https://img.freepik.com/free-photo/black-white-minimal-portrait_23-2149152635.jpg?w=900&t=st=1695333454~exp=1695334054~hmac=3a9020c3a2a88a4272ffcf28bcb83d55612c26db5d3e63363643e5460b90adac");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  color: white !important;
+  height: 500px;
+}
+.contactCont {
+  width: 30%;
+}
+.register {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px !important;
+}
+textarea {
+  width: 100%;
+  resize: none;
+}
+@media (max-width: 700px) {
+  .landingRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .Info {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .section3 {
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section3Text {
+    width: 100%;
+  }
+  .contactUs {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .contactCont {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 10px 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .flexBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: baseline;
+  }
+  .textWidth {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    text-align: center;
+  }
+  .orders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
